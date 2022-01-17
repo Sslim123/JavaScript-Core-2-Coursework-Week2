@@ -151,7 +151,17 @@ body {
 #greenBtn {
   background: #87ca8a;
 }
-
+li{
+  border: #ce5f31;
+  border-radius: 3rem;;
+  border-color: black;
+}
+ul{
+  
+  display:grid;
+  height:180px;
+  grid-template-rows: auto auto auto auto;
+}
 @media screen and (min-width: 992px) {
   .navbar-brand > img {
     max-height: 80px;

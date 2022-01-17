@@ -10,7 +10,12 @@
  body {
      font-family: "Source Sans Pro",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
  }
- 
+ span {
+     display: flex;
+     justify-content:space-between;
+     padding: 10px;
+
+ }
  .site-footer {
      margin-top: 4em;
  }
